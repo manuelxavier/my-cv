@@ -21,7 +21,7 @@ Finalista da licenciatura em Sistemas de Informação para a Gestão, com intere
 
 #### Senior analista de sistemas | Oct 2022 - Current
 
-Elit mollit ipsum fugiat enim labore et non. Amet nulla cupidatat esse est qui magna culpa velit magna excepteur proident Lorem aliquip ullamco. Anim culpa sit cillum enim consectetur aliqua id Lorem aute id id laborum. Sit nostrud ea anim et deserunt cillum sint culpa laboris. Nisi magna amet minim esse dolore. Do officia ipsum duis exercitation incididunt irure pariatur.
+..
 
 
 
