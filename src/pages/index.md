@@ -6,19 +6,14 @@ pdfLink: resume.pdf
 ---
 
 # Manuel Xavier
-import Image from "next/image";
-
-export default function ProfilePicture() {
-  return (
     <Image 
       src="/imagem.jpg" 
       alt="Minha Foto" 
-      width={150} 
-      height={150} 
+      width={100} 
+      height={100} 
       className="rounded-full"
     />
-  );
-}
+
 ### [Sistemas de Informação para a Gestão](https://www.upt.pt/inicio/cursos/licenciaturas-departamentos/licenciatura-em-sistemas-de-informacao-para-gestao/)
 
 
