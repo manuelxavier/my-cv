@@ -1,7 +1,8 @@
 ---
-import "@fontsource/poppins";
-import Download from "../components/Download.astro";
-import "../styles.css";
+import '@fontsource/poppins';
+import Download from '../components/Download.astro';
+import '../styles.css';
+import { Image } from 'astro:assets';
 
 type Props = {
   frontmatter: {
@@ -12,43 +13,51 @@ type Props = {
   };
 };
 
-const { PDF_VIEW, FORCE_THEME = "" } = import.meta.env;
+const { PDF_VIEW, FORCE_THEME = '' } = import.meta.env;
 
 const { title, pdfLink, noIndex, description } = Astro.props
-  .frontmatter as Props["frontmatter"];
+  .frontmatter as Props['frontmatter'];
 
 // Firstname Lastname -> ['F', 'L']
 const initials = title
-  .split(" ")
+  .split(' ')
   .map(([initial]) => initial!.toUpperCase())
   .slice(0, 2);
 ---
+
 <!doctype html>
-<html lang="en" class={FORCE_THEME}>
+<html lang='en' class={FORCE_THEME}>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <meta name="generator" content={Astro.generator} />
-    <meta name="description" content={description || title} />
-    {noIndex && <meta name="robots" content="noindex" />}
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width' />
+    <link rel='icon' type='image/svg+xml' href='favicon.svg' />
+    <meta name='generator' content={Astro.generator} />
+    <meta name='description' content={description || title} />
+    {noIndex && <meta name='robots' content='noindex' />}
     <title>{title}</title>
   </head>
-  <body class={!PDF_VIEW ? "bg-indigo-50 dark:bg-slate-900 sm:my-14" : ""}>
-    <div class="container mx-auto flex justify-center">
-      <article class="minimalist relative">
-        <div
-          class="absolute top-4 rounded-sm bg-red-500 px-4 py-1 sm:left-8 sm:top-12"
-        >
-          <div
-            class="flex h-fit select-none flex-col items-center text-sm font-bold"
-          >
+  <body class={!PDF_VIEW ? 'bg-indigo-50 dark:bg-slate-900 sm:my-14' : ''}>
+    <div class='container mx-auto flex justify-center'>
+      <article class='minimalist relative'>
+        <div class='absolute top-4 rounded-sm bg-red-500 px-4 py-1 sm:left-8 sm:top-12'>
+          <div class='flex h-fit select-none flex-col items-center text-sm font-bold'>
             {initials.map((initial) => <span>{initial}</span>)}
           </div>
         </div>
+        <div>
+          <img
+              src='/img.webp'
+              width='200'
+              height='200'
+              decoding='async'
+              loading='lazy'
+              class='flex rounded-full'
+              alt='profile'
+            />
+        </div>
         {
           !PDF_VIEW && (
-            <div class="not-prose absolute right-4 top-4">
+            <div class='not-prose absolute right-4 top-4'>
               <Download href={pdfLink} />
             </div>
           )
@@ -59,5 +68,3 @@ const initials = title
     <style></style>
   </body>
 </html>
-
-
