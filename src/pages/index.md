@@ -19,22 +19,11 @@ Finalista da licenciatura em Sistemas de Informação para a Gestão, com intere
 
 ### [Lanidor](https://www.lanidor.com/)
 
-#### Senior analista de sistemas | Oct 2022 - Current
+#### Junior Data Analyst | Oct 2024 - Current
 
-..
-
-
+Análise de dados de vendas, stock e comportamento do cliente para otimização de decisões estratégicas. Desenvolvimento de dashboards em Excel e Power BI para monitorização de KPIs. Apoio na previsão de procura e na otimização da gestão de inventário.
 
 
-## Projects
-
-### [Sillicon Valley](<https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)>)
-
-#### Video Compression for 3D Media
-
-#### Founder | Oct 2019
-
-Innovative middle-out compression algorithm that changes the way we store data.
 
 ## Languages
 
