@@ -21,7 +21,7 @@ Finalista da licenciatura em Sistemas de Informação para a Gestão, com intere
 
 #### Junior Data Analyst | Oct 2024 - Current
 
-Análise de dados de vendas, stock e comportamento do cliente para otimização de decisões estratégicas. Desenvolvimento de dashboards em Excel e Power BI para monitorização de KPIs. Apoio na previsão de procura e na otimização da gestão de inventário.
+Análise de dados de vendas, stock e comportamento do cliente para otimização de decisões estratégicas. Desenvolvimento de dashboards em Excel e Power BI para monitorização de KPIs. Apoio na previsão de procura e na otimização da gestão de inventário. 
 
 
 
