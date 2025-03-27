@@ -10,7 +10,7 @@ pdfLink: resume.pdf
 ### [Information Systems for Management](https://www.upt.pt/inicio/cursos/licenciaturas-departamentos/licenciatura-em-sistemas-de-informacao-para-gestao/)
 
 
-Porto, Portugal | manueloliveiraxavier@gmail.com | http://manuelxavier.pt
+Porto, Portugal | [manueloliveiraxavier@](mailto:manueloliveiraxavier@gmail.com) | [manuelxavier.pt](http://manuelxavier.pt)
 
 Final-year student in Information Systems for Management, with an interest in technology and process optimization. Strong teamwork abilities, strategic thinking, and problem-solving skills.
 

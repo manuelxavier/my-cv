@@ -10,7 +10,7 @@ pdfLink: resume.pdf
 ### [Sistemas de Informação para a Gestão](https://www.upt.pt/inicio/cursos/licenciaturas-departamentos/licenciatura-em-sistemas-de-informacao-para-gestao/)
 
 
-Porto, Portugal | manueloliveiraxavier@gmail.com | http://manuelxavier.pt
+Porto, Portugal | [manueloliveiraxavier@](mailto:manueloliveiraxavier@gmail.com) | [manuelxavier.pt](http://manuelxavier.pt)
 
 Finalista da licenciatura em Sistemas de Informação para a Gestão, com interesse em tecnologia e otimização de processos. Capacidade de trabalho em equipa, pensamento estratégico e resolução de problemas.
 

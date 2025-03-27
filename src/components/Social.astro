@@ -1,0 +1,38 @@
+---
+const socialLinks = [
+  { 
+    name: 'GitHub', 
+    url: 'https://github.com/manuelxavier', 
+    icon: '/icons/github.svg' 
+  },
+  { 
+    name: 'LinkedIn', 
+    url: 'https://linkedin.com/in/manuel-xavier', 
+    icon: '/icons/linkedin.svg' 
+  },
+  {
+    name: 'Email',
+    url: 'mailto:manueloliveiraxavier@gmail.com',
+    icon: '/icons/email.svg'
+  },
+  {
+    name: 'Website',
+    url: 'http://manuelxavier.pt',
+    icon: '/icons/website.svg'
+  }
+];
+---
+
+<div class="flex gap-4 justify-center mt-1">
+  {socialLinks.map(({ name, url, icon }) => (
+    <a 
+      href={url} 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      class="text-slate-400 hover:text-slate-500 dark:text-slate-600 flex items-center transition-colors"
+      aria-label={`Visit ${name}`}
+    >
+      <img src={icon} alt={name} class="h-6 w-6" />
+    </a>
+  ))}
+</div>
