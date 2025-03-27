@@ -6,12 +6,11 @@ const main = async () => {
 
   await page.goto("https://manuelxavier.pt", { waitUntil: "networkidle" });
 
-  await page.emulateMedia({ media: "screen" });
+  await page.emulateMedia({media:"screen"});
 
   await page.pdf({
     path: "public/resume.pdf",
-    margin: { top: "50px", bottom: "80px" },
-    printBackground: true,
+    printBackground: true
   });
 
   return browser.close();
