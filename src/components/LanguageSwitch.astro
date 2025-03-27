@@ -1,0 +1,20 @@
+---
+// Get the current URL to determine which language we're currently in
+const currentPath = Astro.url.pathname;
+const isEnglish = currentPath.includes('/eng') || currentPath === '/eng';
+
+// Determine the URL for the language switch
+// If we're on the English version, link to Portuguese version and vice versa
+const targetUrl = isEnglish ? '/' : '/eng';
+const targetLanguage = isEnglish ? 'PT' : 'EN';
+---
+
+<a
+  href={targetUrl}
+  class="text-slate-400 hover:text-slate-500 dark:text-slate-600 flex items-center"
+  title={`Switch to ${isEnglish ? 'Portuguese' : 'English'} version`}
+>
+  <div class="h-6 w-6 flex items-center justify-center font-bold">
+    {targetLanguage}
+  </div>
+</a>
