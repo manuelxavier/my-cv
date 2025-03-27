@@ -7,14 +7,18 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "generate-pdf": "node scripts/generate-pdf.js"
+    "generate-pdf": "node ./scripts/generate-pdf.js",
+    "generate-pdf:ci": "PDF_VIEW=true start-server-and-test http://localhost:4321 generate-pdf",
+    "prebuild": "astro check && tsc --noEmit",
+    "build-total": "pnpm run generate-pdf:ci && astro build",
+    "build:light": "FORCE_THEME=light astro build",
+    "build:dark": "FORCE_THEME=dark astro build"
   },
   "dependencies": {
     "@astrojs/tailwind": "^6.0.0",
     "@fontsource/poppins": "^5.1.1",
     "@tailwindcss/typography": "^0.5.16",
-    "astro": "^5.4.3",
-    "zwitch": "^2.0.4"
+    "astro": "^5.4.3"
   },
   "devDependencies": {
     "@playwright/test": "^1.50.1"
