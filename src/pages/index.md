@@ -51,7 +51,7 @@ Análise de dados de vendas, stock e comportamento do cliente para otimização 
 
 ## Education
 
-# University of Portucalence
+# Universidade Portucalense
 
 #### Licenciatura em Sistemas de Informação para a Gestão 
 #### Porto 2020 - 2025
